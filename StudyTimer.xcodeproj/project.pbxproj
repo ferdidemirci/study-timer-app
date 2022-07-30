@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8130F998286B2C5200A548E4 /* settingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130F997286B2C5200A548E4 /* settingsModel.swift */; };
+		816F9A14287AEB22004677A1 /* DataTransferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F9A13287AEB22004677A1 /* DataTransferable.swift */; };
 		81E8380F285E3FCB00584D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8380E285E3FCB00584D93 /* AppDelegate.swift */; };
 		81E83811285E3FCB00584D93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E83810285E3FCB00584D93 /* SceneDelegate.swift */; };
 		81E83813285E3FCB00584D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E83812285E3FCB00584D93 /* ViewController.swift */; };
@@ -14,10 +16,17 @@
 		81E83819285E3FCB00584D93 /* StudyTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81E83817285E3FCB00584D93 /* StudyTimer.xcdatamodeld */; };
 		81E8381B285E3FCD00584D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E8381A285E3FCD00584D93 /* Assets.xcassets */; };
 		81E8381E285E3FCD00584D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E8381C285E3FCD00584D93 /* LaunchScreen.storyboard */; };
+		81E83826285E49D600584D93 /* StatisticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E83825285E49D600584D93 /* StatisticsVC.swift */; };
+		81E83828285E49F600584D93 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E83827285E49F600584D93 /* SettingsVC.swift */; };
+		81FBF682286B81500088B9F8 /* studyDurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBF681286B81500088B9F8 /* studyDurationCell.swift */; };
+		81FBF684286B94A80088B9F8 /* studyDurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBF683286B94A80088B9F8 /* studyDurationVC.swift */; };
+		81FBF686286B98E20088B9F8 /* studyDurationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBF685286B98E20088B9F8 /* studyDurationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81E8380B285E3FCB00584D93 /* StudyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8130F997286B2C5200A548E4 /* settingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsModel.swift; sourceTree = "<group>"; };
+		816F9A13287AEB22004677A1 /* DataTransferable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferable.swift; sourceTree = "<group>"; };
+		81E8380B285E3FCB00584D93 /* Study Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E8380E285E3FCB00584D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81E83810285E3FCB00584D93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		81E83812285E3FCB00584D93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +35,11 @@
 		81E8381A285E3FCD00584D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81E8381D285E3FCD00584D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81E8381F285E3FCD00584D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E83825285E49D600584D93 /* StatisticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsVC.swift; sourceTree = "<group>"; };
+		81E83827285E49F600584D93 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		81FBF681286B81500088B9F8 /* studyDurationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyDurationCell.swift; sourceTree = "<group>"; };
+		81FBF683286B94A80088B9F8 /* studyDurationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyDurationVC.swift; sourceTree = "<group>"; };
+		81FBF685286B98E20088B9F8 /* studyDurationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyDurationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81C1CCAA286C282600125A3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8130F997286B2C5200A548E4 /* settingsModel.swift */,
+				81FBF685286B98E20088B9F8 /* studyDurationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81C1CCAB286C283900125A3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81E83812285E3FCB00584D93 /* ViewController.swift */,
+				81E83825285E49D600584D93 /* StatisticsVC.swift */,
+				81E83827285E49F600584D93 /* SettingsVC.swift */,
+				81FBF683286B94A80088B9F8 /* studyDurationVC.swift */,
+				81FBF681286B81500088B9F8 /* studyDurationCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81C1CCAC286C299400125A3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81E83814285E3FCB00584D93 /* Main.storyboard */,
+				81E8381C285E3FCD00584D93 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		81E83802285E3FCB00584D93 = {
 			isa = PBXGroup;
 			children = (
@@ -50,7 +94,7 @@
 		81E8380C285E3FCB00584D93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81E8380B285E3FCB00584D93 /* StudyTimer.app */,
+				81E8380B285E3FCB00584D93 /* Study Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,14 +102,15 @@
 		81E8380D285E3FCB00584D93 /* StudyTimer */ = {
 			isa = PBXGroup;
 			children = (
+				81C1CCAA286C282600125A3E /* Model */,
+				81C1CCAC286C299400125A3E /* View */,
+				81C1CCAB286C283900125A3E /* Controller */,
 				81E8380E285E3FCB00584D93 /* AppDelegate.swift */,
 				81E83810285E3FCB00584D93 /* SceneDelegate.swift */,
-				81E83812285E3FCB00584D93 /* ViewController.swift */,
-				81E83814285E3FCB00584D93 /* Main.storyboard */,
 				81E8381A285E3FCD00584D93 /* Assets.xcassets */,
-				81E8381C285E3FCD00584D93 /* LaunchScreen.storyboard */,
 				81E8381F285E3FCD00584D93 /* Info.plist */,
 				81E83817285E3FCB00584D93 /* StudyTimer.xcdatamodeld */,
+				816F9A13287AEB22004677A1 /* DataTransferable.swift */,
 			);
 			path = StudyTimer;
 			sourceTree = "<group>";
@@ -73,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81E8380A285E3FCB00584D93 /* StudyTimer */ = {
+		81E8380A285E3FCB00584D93 /* Study Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81E83822285E3FCD00584D93 /* Build configuration list for PBXNativeTarget "StudyTimer" */;
+			buildConfigurationList = 81E83822285E3FCD00584D93 /* Build configuration list for PBXNativeTarget "Study Timer" */;
 			buildPhases = (
 				81E83807285E3FCB00584D93 /* Sources */,
 				81E83808285E3FCB00584D93 /* Frameworks */,
@@ -85,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = StudyTimer;
+			name = "Study Timer";
 			productName = StudyTimer;
-			productReference = 81E8380B285E3FCB00584D93 /* StudyTimer.app */;
+			productReference = 81E8380B285E3FCB00584D93 /* Study Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81E8380A285E3FCB00584D93 /* StudyTimer */,
+				81E8380A285E3FCB00584D93 /* Study Timer */,
 			);
 		};
 /* End PBXProject section */
@@ -142,9 +187,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E83813285E3FCB00584D93 /* ViewController.swift in Sources */,
+				81FBF686286B98E20088B9F8 /* studyDurationModel.swift in Sources */,
+				81FBF682286B81500088B9F8 /* studyDurationCell.swift in Sources */,
+				81E83826285E49D600584D93 /* StatisticsVC.swift in Sources */,
+				81FBF684286B94A80088B9F8 /* studyDurationVC.swift in Sources */,
+				816F9A14287AEB22004677A1 /* DataTransferable.swift in Sources */,
 				81E83819285E3FCB00584D93 /* StudyTimer.xcdatamodeld in Sources */,
 				81E8380F285E3FCB00584D93 /* AppDelegate.swift in Sources */,
 				81E83811285E3FCB00584D93 /* SceneDelegate.swift in Sources */,
+				8130F998286B2C5200A548E4 /* settingsModel.swift in Sources */,
+				81E83828285E49F600584D93 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81E83822285E3FCD00584D93 /* Build configuration list for PBXNativeTarget "StudyTimer" */ = {
+		81E83822285E3FCD00584D93 /* Build configuration list for PBXNativeTarget "Study Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81E83823285E3FCD00584D93 /* Debug */,
